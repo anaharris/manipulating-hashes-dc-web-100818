@@ -13,7 +13,8 @@ def first_challenge
     }
   }
   contacts["Freddy Mercury"][:favorite_icecream_flavors].each |flavor|
-  
+  value.delete_if("strawberry")
+end
   
 
 
