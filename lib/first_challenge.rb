@@ -12,7 +12,7 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-  contacts["Freddy Mercury"][:favorite_icecream_flavors].each |flavor|
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].each do |flavor|
   value.delete_if("strawberry")
   return contacts
 end
