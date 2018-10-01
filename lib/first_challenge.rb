@@ -14,6 +14,7 @@ def first_challenge
   }
   contacts["Freddy Mercury"][:favorite_icecream_flavors].each do |flavor|
   value.delete_if("strawberry")
+end
   return contacts
 end
 
